@@ -1,0 +1,287 @@
+/* home */
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+/* home - cards */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+}
+
+.card-image {
+    display: flex;
+    justify-content: center;
+}
+
+.card-image img {
+    display: flex;
+    width: 80%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.card-details {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card-title {
+    font-size: 1.5em;
+    margin: 0;
+    color: #333;
+}
+
+.card-description {
+    font-size: 0.9em;
+    color: #555;
+    margin: 0;
+}
+
+.card-price {
+    font-size: 1em;
+    color: #666;
+    margin: 0;
+}
+
+.details-button {
+    margin-top: 12px;
+    padding: 10px;
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+.details-button:hover {
+    background-color: #005a9e;
+}
+
+/* Estilo para el header */
+header {
+    display: flex;
+    background-color: #ebebeb;
+    color: #ffffff;
+    text-align: center;
+    justify-content: space-between;
+    padding: 20px;
+    /* height: 80px; */
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 15px;
+}
+
+.header-container h1 {
+    color: black;
+}
+
+.company-logo {
+    width: 60px;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+    margin-top: 10px;
+    text-align: right;
+}
+
+
+.header-link {
+    color: #ffffff;
+    color: gray;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.header-link:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+/* Estilo para la tabla */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+    color: #333;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Encabezado */
+thead {
+    background-color: #979797;
+    color: #ffffff;
+}
+
+thead th {
+    padding: 12px 15px;
+    text-transform: uppercase;
+}
+
+/* Filas alternas */
+tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #ffffff;
+    /* Blanco */
+}
+
+/* Hover para filas */
+tbody tr:hover {
+    background-color: orange;
+    color: #ffffff;
+}
+
+/* Celdas */
+td {
+    padding: 10px 15px;
+    text-align: center;
+}
+
+
+button {
+    padding: 8px 12px;
+    background-color: #007BFF;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Bordes */
+table,
+th,
+td {
+    border: 1px solid #333;
+}
+
+/* Columna "title, description, thumbnails" */
+td:nth-child(1),
+td:nth-child(2),
+td:nth-child(8) {
+    text-align: left;
+    width: 250px;
+}
+
+/* Columna "price, stock" */
+td:nth-child(4),
+td:nth-child(6) {
+    text-align: right;
+    width: 60px;
+}
+
+/* Columna "code, category" */
+td:nth-child(3),
+td:nth-child(5),
+td:nth-child(7) {
+    text-align: center;
+    width: 100px;
+}
+
+/* Columna "action" */
+td:nth-child(9) {
+    text-align: center;
+    vertical-align: top;
+    width: 110px;
+}
+
+/* form add product */
+#productForm {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    gap: 16px;
+}
+
+#containerForm{
+    display: flex;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#containerFormElement{
+    display: flex;
+    align-items: flex-end;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 100%;
+}
+
+.form-row-button {
+    display: flex;
+
+}
+
+label {
+    font-size: 1em;
+    color: #333;
+}
+
+input,
+select,
+button {
+    font-size: 1em;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+}
+
+button {
+    background-color: #0078d4;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    width: 80px;
+}
+
+button:hover {
+    background-color: #005a9e;
+}

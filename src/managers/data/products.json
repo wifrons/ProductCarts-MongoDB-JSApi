@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Notebook Lenovo Gamming",
+    "description": "Notebook Lenovo Gamming",
+    "code": "NbLeGa",
+    "price": 10,
+    "status": true,
+    "stock": 20,
+    "category": "compu",
+    "thumbnails": [
+      "./NbLeId01.png",
+      "./NbLeId02.png"
+    ],
+    "id": 1
+  },
+  {
+    "title": "Notebook Lenovo Wifron AMD Ryzen 7",
+    "description": "Notebook Lenovo Wifron AMD Ryzen 7",
+    "code": "NbLeWi",
+    "price": 10,
+    "status": true,
+    "stock": 20,
+    "category": "compu",
+    "thumbnails": [
+      "./NbLeWi01.png",
+      "./NbLeWi02.png"
+    ],
+    "id": 2
+  },
+  {
+    "title": "Notebook HP Probook Intel",
+    "description": "Notebook HP Probook Intel",
+    "code": "NbHpPr",
+    "price": 10,
+    "status": true,
+    "stock": 20,
+    "category": "compu",
+    "thumbnails": [
+      "./NbHpPr01.png",
+      "./NbHpPr02.png"
+    ],
+    "id": 3
+  }
+]

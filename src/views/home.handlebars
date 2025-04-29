@@ -1,0 +1,17 @@
+<h1>Los mejores productos disponibles a precios increíbles</h1>
+<div class="card-container">
+    {{#each products}}
+    <div class="card">
+        <div class="card-image">
+            <img src="/img/no-image.svg" alt="Imagen de {{title}}">
+            {{!-- <img src="{{thumbnails}}" alt="Imagen de {{title}}" /> --}}
+        </div>
+        <div class="card-details">
+            <h3 class="card-title">{{title}}</h3>
+            <p class="card-description">{{description}}</p>
+            <p class="card-price"><strong>Precio:</strong> ${{price}}</p>
+            <button class="details-button">Ver detalles</button>
+        </div>
+    </div>
+    {{/each}}
+</div>
