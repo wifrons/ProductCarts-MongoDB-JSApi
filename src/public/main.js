@@ -70,7 +70,6 @@ productsBox.addEventListener("click", (e) => {
         const productId = e.target.getAttribute("data-id");
 
         // Lógica para manejar la eliminación
-        console.log(`Eliminar producto con ID: ${productId}`);
         socket.emit("del-product", productId); // Enviar el ID al servidor
 
         Swal.fire({
@@ -107,4 +106,4 @@ productForm.addEventListener("submit", (e) => {
     });
 });
 
-console.log("se conectaron los archivos estaticos con el servidor mediante handlebars")
+console.log("se conectaron los archivos estaticos con el servidor mediante handlebars.");

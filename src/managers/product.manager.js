@@ -9,7 +9,7 @@ class ProductManager {
     }
 
     // Método generico para guardar datos en un archivo
-    async saveDate(doc) {
+    async saveData(doc) {
         const docToString = JSON.stringify(doc, null, 2);
         await fsPromises.writeFile(this.filePath, docToString);
     }
@@ -21,8 +21,7 @@ class ProductManager {
             const data = JSON.parse(json);
             return data;
         } catch (error) {
-            console.log("File not exists. Building...")
-            return []
+            return [];
         }
     }
 
@@ -67,7 +66,7 @@ class ProductManager {
         };
 
         products.push(newProduct);
-        await this.saveDate(products);
+        await this.saveData(products);
         return newProduct;
 
     }
@@ -78,25 +77,22 @@ class ProductManager {
         const indexProduct = products.findIndex((pr) => pr.id === parseInt(pid));
         if (indexProduct === -1) return { updProduct: `Product ${obj.code} not exist. 🤔` };
 
-        console.log(obj);
         products[indexProduct] = { ...products[indexProduct], ...obj };
 
-        await this.saveDate(products);
+        await this.saveData(products);
         return products[indexProduct];
     }
 
     // Método para eliminar producto
     async delProduct(pid) {
         const products = await this.readData();
-        console.log(pid)
         const indexProduct = products.findIndex((pr) => pr.id === parseInt(pid));
-        if (indexProduct === -1) return { delProduct: `Id Product: ${pid}, not exist. 🤔` };
+        if (indexProduct === -1) return { delProduct: `Id Product: ${pid}, no existe. 🤔` };
 
         products.splice(indexProduct, 1);
-        await this.saveDate(products);
+        await this.saveData(products);
         return { deleted: pid };
     }
-
 }
 
 export default ProductManager;

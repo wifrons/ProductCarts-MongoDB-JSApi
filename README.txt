@@ -42,8 +42,8 @@ Obtiene el carrito indicado en el parametro
 //-->POST   /api/carts/
 Agrega un carrito
 
-//-->PUT   	/api/carts/:cid
-Actualiza un carrito con los parametros indicados
+//-->PUT   	/api/carts/:cid/product/:pid
+Actualiza un carrito agregando un product
 
 //-->DELETE /api/carts/:cid
 Elimina un carrito indicado en el parametro

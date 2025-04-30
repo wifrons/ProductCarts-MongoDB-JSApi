@@ -4,8 +4,7 @@ const productManager = new ProductManager("/data/products.json");
 
 export default (io) => {
     io.on("connection", async (socket) => {
-        console.log("Un nuevo cliente se ha conectado");
-        console.log("ID del cliente: ", socket.id);
+        console.log("Un nuevo cliente se ha conectado, ID del cliente:", socket.id);
 
         // Obtener productos al conectar
         const initialProducts = await productManager.getProducts();
@@ -22,9 +21,7 @@ export default (io) => {
 
         socket.on("del-product", async (data) => {
             // eliminar el producto
-            console.log(data);
             await productManager.delProduct(data);
-
             // actualizar todos los clientes
             const updatedProducts = await productManager.getProducts();
             io.emit("all-products", updatedProducts);
