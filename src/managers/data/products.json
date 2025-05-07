@@ -40,5 +40,19 @@
       "./NbHpPr02.png"
     ],
     "id": 3
+  },
+  {
+    "title": "AAA",
+    "description": "AAAA",
+    "code": "AAAA",
+    "price": 99,
+    "status": true,
+    "stock": 99,
+    "category": "compu",
+    "thumbnails": [
+      "./AAAA01.png",
+      "./AAAA02.png"
+    ],
+    "id": 4
   }
 ]
