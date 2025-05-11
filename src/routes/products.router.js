@@ -1,18 +1,18 @@
 import { Router } from "express";
 import ProductManager from "../managers/product.manager.js";
-import productsModel from "../models/products.model.js";
+import ProductsModel from "../models/products.model.js";
 
 const router = Router();
 const productManager = new ProductManager("/data/products.json");
+//const initialProducts = await ProductsModel.find()
+//await productManager.syncData(initialProducts);
 
 //Obtener todos los productos
 router.get("/api/products/", async (req, res) => {
-    /*     const products = await productManager.getProducts();
-        res.json(products); */
-
     try {
-        const response = await productsModel.find();
+        const response = await ProductsModel.find();
         if (response) {
+            await productManager.syncData(response);
             res.status(200).json({ status: "success find", response });
         } else {
             res.status(404).json({ status: "failed find", message: "no products found" });
@@ -23,13 +23,9 @@ router.get("/api/products/", async (req, res) => {
 });
 //Obtener un producto
 router.get("/api/products/:pid", async (req, res) => {
-    /* const pid = parseInt(req.params.pid); */
-    /*     const product = await productManager.getProductsById(pid);
-        res.json(product); */
-
     const pid = req.params.pid;
     try {
-        const response = await productsModel.findOne({ _id: pid });
+        const response = await ProductsModel.findOne({ _id: pid });
         if (response) {
             res.status(200).json({ status: "success findOne", response });
         } else {
@@ -51,7 +47,7 @@ router.post("/api/products/", async (req, res) => {
         res.json(result); */
 
     try {
-        const response = await productsModel.insertOne(
+        const response = await ProductsModel.insertOne(
             { title, description, code, price, status, stock, category, thumbnails }
         );
         if (response) {
@@ -67,20 +63,11 @@ router.post("/api/products/", async (req, res) => {
 });
 //Actualizar un producto
 router.put("/api/products/:pid", async (req, res) => {
-    /*     const pid = parseInt(req.params.pid);
-        const { title, description, code, price, status, stock, category, thumbnails } = req.body; 
-    
-        if (!title || !description || !code || !price || !status || !stock || !category || !thumbnails) {
-            return res.status(404).json({ error: `Faltan datos. 🙃` });
-        }
-    
-        const result = await productManager.updProduct(pid, { title, description, code, price, status, stock, category, thumbnails });
-       res.json(result); */
 
     const pid = req.params.pid;
     const { body } = req;
     try {
-        const response = await productsModel.updateOne({ _id: pid }, {
+        const response = await ProductsModel.updateOne({ _id: pid }, {
             $set: { ...body }
         });
         if (response) {
@@ -94,7 +81,7 @@ router.put("/api/products/:pid", async (req, res) => {
         res.status(400).json({ status: "error updateOne", error });
     }
 });
-//Emilinar un producto
+//ELIMINAR UN PRODUCTO ESPECIFICADO
 router.delete("/api/products/:pid", async (req, res) => {
     /*     const pid = parseInt(req.params.pid);
         const result = await productManager.delProduct(pid);
@@ -102,7 +89,7 @@ router.delete("/api/products/:pid", async (req, res) => {
 
     const pid = req.params.pid;
     try {
-        const response = await productsModel.findByIdAndDelete(pid);
+        const response = await ProductsModel.findByIdAndDelete(pid);
         if (response) {
             await productManager.delProduct(pid);
             res.status(200).json({ status: "success findByIdAndDelete", response });

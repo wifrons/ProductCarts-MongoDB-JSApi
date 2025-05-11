@@ -25,6 +25,16 @@ class ProductManager {
         }
     }
 
+    // Método generico para reconstruir los datos en el archivo
+    async syncData(doc) {
+        
+        await fsPromises.truncate(this.filePath);
+
+        const docToString = JSON.stringify(doc, null, 2);
+
+        await fsPromises.writeFile(this.filePath, docToString);
+    }
+
     // Método para obtener todos los productos
     async getProducts() {
         return await this.readData();
@@ -41,10 +51,16 @@ class ProductManager {
     // Método para agregar productos
     async addProduct(product) {
         const { title, description, code, price, status, stock, category, thumbnails } = product;
-
+        console.log("addProduct -->>")
+        console.log(product)
         const products = await this.readData();
+        console.log("addProduct -->> products")
+        console.log(products)
         const foundCode = products.find((pr) => pr.code === code);
         if (foundCode) return { addProduct: `Product code: [${code}] already exists.` }
+        
+        console.log("addProduct -->> products.length")
+        console.log(products.length)
 
         let id;
         if (!products.length) id = 1;
@@ -53,7 +69,7 @@ class ProductManager {
             id = lastId + 1;
         }
 
-        const newProduct = {
+/*         const newProduct = {
             title,
             description,
             code,
@@ -63,10 +79,17 @@ class ProductManager {
             category,
             thumbnails,
             id,
-        };
+        }; */
+        
+        const newProduct = {...product};
+
+        console.log("addProduct -->> newProduct")
+        console.log(newProduct)
 
         products.push(newProduct);
         await this.saveData(products);
+
+        console.log("<<-- addProduct")
         return newProduct;
 
     }
@@ -86,7 +109,8 @@ class ProductManager {
     // Método para eliminar producto
     async delProduct(pid) {
         const products = await this.readData();
-        const indexProduct = products.findIndex((pr) => pr.id === parseInt(pid));
+        /* const indexProduct = products.findIndex((pr) => pr.id === parseInt(pid)); */
+        const indexProduct = products.findIndex((pr) => pr._id === pid);
         if (indexProduct === -1) return { delProduct: `Id Product: ${pid}, no existe. 🤔` };
 
         products.splice(indexProduct, 1);

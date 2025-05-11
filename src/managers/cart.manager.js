@@ -14,7 +14,7 @@ class CartManager {
             const docToString = JSON.stringify(doc, null, 2);
             await fsPromises.writeFile(this.filePath, docToString);
         } catch (error) {
-            return [];
+            return null;
         }
     }
 
@@ -25,8 +25,18 @@ class CartManager {
             const data = JSON.parse(json);
             return data;
         } catch (error) {
-            return []
+            return null
         }
+    }
+
+    // Método generico para reconstruir los datos en el archivo
+    async syncData(doc) {
+
+        await fsPromises.truncate(this.filePath);
+
+        const docToString = JSON.stringify(doc, null, 2);
+
+        await fsPromises.writeFile(this.filePath, docToString);
     }
 
     // Método para obtener todos los productos
@@ -35,12 +45,17 @@ class CartManager {
     }
 
     // Método para crear carrito
-    async addCart() {
+    async addCart(cid) {
+
+        /*         const carts = await this.readData();
+                const newCart = {
+                    id: carts.length ? carts[carts.length - 1].id + 1 : 1,
+                    products: []
+                } */
 
         const carts = await this.readData();
-
         const newCart = {
-            id: carts.length ? carts[carts.length - 1].id + 1 : 1,
+            _id: cid,
             products: []
         }
         carts.push(newCart);
@@ -51,23 +66,41 @@ class CartManager {
     // Método para agregar producto en el carrito
     async addProductCart(cid, pid) {
         const carts = await this.readData();
-        const index = carts.findIndex((p) => p.id === cid)
+        console.log(carts);
+        console.log(cid)
+        console.log(pid)
+        const index = carts.findIndex((c) => c._id === cid);
+        console.log(index)
         if (index === -1) {
-            return [];
+            return null;
         }
 
         const cart = carts[index];
-        const cartProduct = cart.products.find((productid) => productid.product === pid)
-
+        console.log(cart);
+        const cartProduct = cart.products.find((productid) => productid.pid === pid)
+        console.log(cartProduct)
         if (cartProduct)
             cartProduct.quantity += 1;
         else
-            cart.products.push({ product: pid, quantity: 1 });
+            cart.products.push({ pid: pid, quantity: 1 });
+
         await this.saveData(carts);
         return cart;
     }
 
-    // Método para eliminar carrito
+    // ELIMINAR TODOS LOS PRODUCTOS DEL CARRITO
+    async delProductCart(cid) {
+        const carts = await this.readData();
+        const indexCart = carts.findIndex((pr) => pr._id === cid);
+
+        if (indexCart === -1) return null;
+
+        carts[indexCart].products = [];
+        await this.saveData(carts);
+        return cid;
+    }
+
+    // ELEMINAR EL CARRITO ESPECIFICADO
     async delCart(cid) {
         const carts = await this.readData();
         const indexCart = carts.findIndex((pr) => pr.id === parseInt(cid));

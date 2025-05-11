@@ -1,58 +1,57 @@
 [
   {
-    "title": "Notebook Lenovo Gamming",
-    "description": "Notebook Lenovo Gamming",
-    "code": "NbLeGa",
+    "thumbnails": [],
+    "_id": "68157b616252e933d195bd2b",
+    "title": "Notebook Lenovo WifronBB",
+    "description": "Notebook Lenovo WifronBB",
+    "code": "NbLeWiBB",
     "price": 10,
-    "status": true,
-    "stock": 20,
+    "status": 1,
     "category": "compu",
-    "thumbnails": [
-      "./NbLeId01.png",
-      "./NbLeId02.png"
-    ],
-    "id": 1
+    "stock": 20,
+    "__v": 0
   },
   {
-    "title": "Notebook Lenovo Wifron AMD Ryzen 7",
-    "description": "Notebook Lenovo Wifron AMD Ryzen 7",
-    "code": "NbLeWi",
+    "_id": "68157c3341572e8fb924ef17",
+    "title": "Notebook Lenovo WifronBB",
+    "description": "Notebook Lenovo WifronBB",
+    "code": "NbLeWiBB",
     "price": 10,
-    "status": true,
-    "stock": 20,
+    "status": 1,
     "category": "compu",
+    "stock": 20,
     "thumbnails": [
       "./NbLeWi01.png",
       "./NbLeWi02.png"
     ],
-    "id": 2
+    "__v": 0
   },
   {
-    "title": "Notebook HP Probook Intel",
-    "description": "Notebook HP Probook Intel",
-    "code": "NbHpPr",
-    "price": 10,
-    "status": true,
-    "stock": 20,
-    "category": "compu",
-    "thumbnails": [
-      "./NbHpPr01.png",
-      "./NbHpPr02.png"
-    ],
-    "id": 3
-  },
-  {
-    "title": "AAA",
-    "description": "AAAA",
-    "code": "AAAA",
+    "_id": "6817f05b32e2815ba5ee452a",
+    "title": "WWWW",
+    "description": "WWWW",
+    "code": "WWWW",
     "price": 99,
-    "status": true,
-    "stock": 99,
+    "status": 1,
     "category": "compu",
+    "stock": 99,
     "thumbnails": [
-      "./AAAA01.png",
-      "./AAAA02.png"
+      "./WWWW01.png",
+      "./WWWW02.png"
     ],
-    "id": 4
+    "__v": 0
+  },
+  {
+    "_id": "681fe25f3b67698409010afc",
+    "title": "qqq",
+    "description": "qqq",
+    "code": "qqq",
+    "price": 11,
+    "status": 1,
+    "category": "compu",
+    "stock": 11,
+    "thumbnails": [
+      "qq01.png"
+    ]
   }
 ]

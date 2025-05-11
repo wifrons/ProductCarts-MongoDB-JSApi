@@ -43,7 +43,7 @@ socket.on("all-products", (data) => {
                     <td>{{stock}}</td>
                     <td>{{category}}</td>
                     <td>{{thumbnails}}</td>
-                    <td><button type="button" class="delete-btn" data-id="{{id}}">Eliminar</button></td>
+                    <td><button type="button" class="delete-btn" data-id="{{_id}}">Eliminar</button></td>
                 </tr>
                 {{/each}}
             </tbody>

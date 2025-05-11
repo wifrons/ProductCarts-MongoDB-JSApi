@@ -18,7 +18,6 @@ const app = express();
 
 app.use(express.json());
 
-//const PORT = 8080;
 const PORT = process.env.PORT || 8080;
 const MONGO_URI = process.env.MONGO_URI || "mongodb://127.0.0.1:27017";
 console.log(MONGO_URI);
@@ -36,7 +35,6 @@ app.use("/", viewsRouter);
 
 app.use("/", productsRouter);
 app.use("/", cartsRouter);
-
 
 httpServer.listen(PORT, () => console.log(`Listening on port ${PORT}`));
 
