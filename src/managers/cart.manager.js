@@ -31,11 +31,8 @@ class CartManager {
 
     // Método generico para reconstruir los datos en el archivo
     async syncData(doc) {
-
         await fsPromises.truncate(this.filePath);
-
         const docToString = JSON.stringify(doc, null, 2);
-
         await fsPromises.writeFile(this.filePath, docToString);
     }
 
@@ -66,24 +63,35 @@ class CartManager {
     // Método para agregar producto en el carrito
     async addProductCart(cid, pid) {
         const carts = await this.readData();
-        console.log(carts);
-        console.log(cid)
-        console.log(pid)
         const index = carts.findIndex((c) => c._id === cid);
-        console.log(index)
+
         if (index === -1) {
             return null;
         }
 
         const cart = carts[index];
-        console.log(cart);
         const cartProduct = cart.products.find((productid) => productid.pid === pid)
-        console.log(cartProduct)
+
         if (cartProduct)
             cartProduct.quantity += 1;
         else
             cart.products.push({ pid: pid, quantity: 1 });
 
+        await this.saveData(carts);
+        return cart;
+    }
+
+    // REEMPLAZA LA LISTA ACTUAL DE PRODUCTOS, POR UNA NUEVA.
+    async addProductListCart(cid, plist) {
+        const carts = await this.readData();
+        const index = carts.findIndex((c) => c._id === cid);
+
+        if (index === -1) {
+            return null;
+        }
+
+        const cart = carts[index];
+        cart.products = plist;
         await this.saveData(carts);
         return cart;
     }
@@ -111,7 +119,6 @@ class CartManager {
         await this.saveData(carts);
         return { deleted: cid };
     }
-
 }
 
 export default CartManager;

@@ -1,57 +1,66 @@
-[
-  {
-    "thumbnails": [],
-    "_id": "68157b616252e933d195bd2b",
-    "title": "Notebook Lenovo WifronBB",
-    "description": "Notebook Lenovo WifronBB",
-    "code": "NbLeWiBB",
-    "price": 10,
-    "status": 1,
-    "category": "compu",
-    "stock": 20,
-    "__v": 0
-  },
-  {
-    "_id": "68157c3341572e8fb924ef17",
-    "title": "Notebook Lenovo WifronBB",
-    "description": "Notebook Lenovo WifronBB",
-    "code": "NbLeWiBB",
-    "price": 10,
-    "status": 1,
-    "category": "compu",
-    "stock": 20,
-    "thumbnails": [
-      "./NbLeWi01.png",
-      "./NbLeWi02.png"
-    ],
-    "__v": 0
-  },
-  {
-    "_id": "6817f05b32e2815ba5ee452a",
-    "title": "WWWW",
-    "description": "WWWW",
-    "code": "WWWW",
-    "price": 99,
-    "status": 1,
-    "category": "compu",
-    "stock": 99,
-    "thumbnails": [
-      "./WWWW01.png",
-      "./WWWW02.png"
-    ],
-    "__v": 0
-  },
-  {
-    "_id": "681fe25f3b67698409010afc",
-    "title": "qqq",
-    "description": "qqq",
-    "code": "qqq",
-    "price": 11,
-    "status": 1,
-    "category": "compu",
-    "stock": 11,
-    "thumbnails": [
-      "qq01.png"
-    ]
-  }
-]
+{
+  "payload": [
+    {
+      "thumbnails": [],
+      "_id": "68157b616252e933d195bd2b",
+      "title": "Notebook Lenovo WifronBB",
+      "description": "Notebook Lenovo WifronBB",
+      "code": "NbLeWiBB",
+      "price": 10,
+      "status": 1,
+      "category": "compu",
+      "stock": 20,
+      "__v": 0
+    },
+    {
+      "_id": "68157c3341572e8fb924ef17",
+      "title": "Notebook Lenovo WifronBB",
+      "description": "Notebook Lenovo WifronBB",
+      "code": "NbLeWiBB",
+      "price": 10,
+      "status": 1,
+      "category": "compu",
+      "stock": 20,
+      "thumbnails": [
+        "./NbLeWi01.png",
+        "./NbLeWi02.png"
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "6817f05b32e2815ba5ee452a",
+      "title": "WWWW",
+      "description": "WWWW",
+      "code": "WWWW",
+      "price": 99,
+      "status": 1,
+      "category": "compu",
+      "stock": 99,
+      "thumbnails": [
+        "./WWWW01.png",
+        "./WWWW02.png"
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "681fe25f3b67698409010afc",
+      "title": "qqq",
+      "description": "qqq",
+      "code": "qqq",
+      "price": 11,
+      "status": 1,
+      "category": "compu",
+      "stock": 11,
+      "thumbnails": [
+        "qq01.png"
+      ]
+    }
+  ],
+  "offset": 0,
+  "totalPages": 1,
+  "currentPage": 1,
+  "hasPrevPage": false,
+  "hasNextPage": false,
+  "prevPage": null,
+  "nextPage": null
+}

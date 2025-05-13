@@ -1,0 +1,132 @@
+[
+    {
+        "title": "Notebook Lenovo Gaming",
+        "description": "Notebook potente para juegos y desarrollo",
+        "code": "NbLeGa",
+        "price": 1200,
+        "status": true,
+        "stock": 10,
+        "category": "computación",
+        "thumbnails": [
+            "./NbLeGa01.png",
+            "./NbLeGa02.png"
+        ]
+    },
+    {
+        "title": "Teclado Mecánico RGB",
+        "description": "Teclado mecánico con iluminación personalizable",
+        "code": "TecRGB",
+        "price": 150,
+        "status": true,
+        "stock": 30,
+        "category": "computación",
+        "thumbnails": [
+            "./TecRGB01.png",
+            "./TecRGB02.png"
+        ]
+    },
+    {
+        "title": "Silla Ergonómica de Oficina",
+        "description": "Silla ajustable con soporte lumbar",
+        "code": "SilOfi",
+        "price": 300,
+        "status": true,
+        "stock": 20,
+        "category": "oficina",
+        "thumbnails": [
+            "./SilOfi01.png",
+            "./SilOfi02.png"
+        ]
+    },
+    {
+        "title": "Monitor 24 Pulgadas",
+        "description": "Monitor Full HD con panel IPS",
+        "code": "Mon24IPS",
+        "price": 250,
+        "status": true,
+        "stock": 15,
+        "category": "computación",
+        "thumbnails": [
+            "./Mon24IPS01.png",
+            "./Mon24IPS02.png"
+        ]
+    },
+    {
+        "title": "Escritorio Ajustable",
+        "description": "Escritorio con altura regulable para oficina",
+        "code": "EscAju",
+        "price": 450,
+        "status": true,
+        "stock": 8,
+        "category": "oficina",
+        "thumbnails": [
+            "./EscAju01.png",
+            "./EscAju02.png"
+        ]
+    },
+    {
+        "title": "Servicio de Mantenimiento de PC",
+        "description": "Revisión y optimización de equipos de computación",
+        "code": "SerMPC",
+        "price": 80,
+        "status": true,
+        "stock": 999,
+        "category": "servicios",
+        "thumbnails": [
+            "./SerMPC01.png",
+            "./SerMPC02.png"
+        ]
+    },
+    {
+        "title": "Audífonos Inalámbricos",
+        "description": "Audífonos Bluetooth con cancelación de ruido",
+        "code": "AudBlu",
+        "price": 200,
+        "status": true,
+        "stock": 25,
+        "category": "computación",
+        "thumbnails": [
+            "./AudBlu01.png",
+            "./AudBlu02.png"
+        ]
+    },
+    {
+        "title": "Impresora Multifuncional",
+        "description": "Impresora, escáner y copiadora",
+        "code": "ImpMul",
+        "price": 350,
+        "status": true,
+        "stock": 12,
+        "category": "oficina",
+        "thumbnails": [
+            "./ImpMul01.png",
+            "./ImpMul02.png"
+        ]
+    },
+    {
+        "title": "Servicio de Configuración de Redes",
+        "description": "Instalación y configuración de redes para empresas",
+        "code": "SerRed",
+        "price": 150,
+        "status": true,
+        "stock": 999,
+        "category": "servicios",
+        "thumbnails": [
+            "./SerRed01.png",
+            "./SerRed02.png"
+        ]
+    },
+    {
+        "title": "Mouse Inalámbrico",
+        "description": "Mouse óptico con conexión Bluetooth",
+        "code": "MouBlu",
+        "price": 50,
+        "status": true,
+        "stock": 50,
+        "category": "computación",
+        "thumbnails": [
+            "./MouBlu01.png",
+            "./MouBlu02.png"
+        ]
+    }
+]

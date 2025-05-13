@@ -1,19 +1,39 @@
 [
   {
-    "_id": "68201b05dc115afaa233b322",
+    "_id": "68216b15828a8b7bd2b9adea",
     "products": [
       {
-        "pid": "68157c3341572e8fb924ef17",
-        "quantity": 1
+        "product": "68157b616252e933d195bd2b",
+        "quantity": 2,
+        "_id": "68216b59f1db314dffad51bc"
       }
     ]
   },
   {
-    "_id": "68203b01f025406c74d743d8",
-    "products": []
+    "_id": "6821defdb1a5ef3de3098079",
+    "products": [
+      {
+        "product": "6817f05b32e2815ba5ee452a",
+        "quantity": 2,
+        "_id": "6821e03aef225d2c8185a40f"
+      }
+    ]
   },
   {
-    "_id": "68203e2050519ada7a600b44",
-    "products": []
+    "_id": "6821e235695707941985b943",
+    "products": [
+      {
+        "product": "68157b616252e933d195bd2b",
+        "quantity": 2
+      },
+      {
+        "product": "68157c3341572e8fb924ef17",
+        "quantity": 4
+      },
+      {
+        "product": "6817f05b32e2815ba5ee452a",
+        "quantity": 6
+      }
+    ]
   }
 ]
