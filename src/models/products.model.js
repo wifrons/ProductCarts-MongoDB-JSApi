@@ -8,35 +8,12 @@ const productsSchema = new mongoose.Schema({
     description: { type: String, required: true },
     code: { type: String, required: true },
     price: { type: Number, required: true },
-    status: { 
-        type: Number, 
-        default: true 
-    },
-
-    stock: { 
-        type: Number, required: true 
-    },
-    category: {
-        type: String,
-        required: true
-    },
-    thumbnails: { 
-        type: Array, 
-        required: true 
-    }
+    status: { type: Number, default: true },
+    stock: { type: Number, required: true },
+    category: { type: String, required: true },
+    thumbnails: { type: Array, required: true }
 },
     { versionKey: false });
-
-mongoosePaginate.paginate.options = {
-    customLabels: {
-        docs: "payload",
-        page: "currentPage",
-        limit: false,
-        pagingCounter: false,
-        totalDocs: false
-    }
-
-};
 
 productsSchema.plugin(mongoosePaginate);
 

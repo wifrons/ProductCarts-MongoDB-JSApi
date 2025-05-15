@@ -1,132 +1,243 @@
 [
     {
-        "title": "Notebook Lenovo Gaming",
-        "description": "Notebook potente para juegos y desarrollo",
-        "code": "NbLeGa",
-        "price": 1200,
-        "status": true,
-        "stock": 10,
-        "category": "computación",
-        "thumbnails": [
-            "./NbLeGa01.png",
-            "./NbLeGa02.png"
-        ]
-    },
-    {
-        "title": "Teclado Mecánico RGB",
-        "description": "Teclado mecánico con iluminación personalizable",
-        "code": "TecRGB",
-        "price": 150,
-        "status": true,
-        "stock": 30,
-        "category": "computación",
-        "thumbnails": [
-            "./TecRGB01.png",
-            "./TecRGB02.png"
-        ]
-    },
-    {
-        "title": "Silla Ergonómica de Oficina",
-        "description": "Silla ajustable con soporte lumbar",
-        "code": "SilOfi",
-        "price": 300,
-        "status": true,
+        "title": "Notebook Lenovo 01",
+        "description": "Notebook Lenovo 01",
+        "code": "pc-01",
+        "price": 100,
+        "status": 1,
+        "category": "computacion",
         "stock": 20,
-        "category": "oficina",
         "thumbnails": [
-            "./SilOfi01.png",
-            "./SilOfi02.png"
+            "https://http2.mlstatic.com/D_NQ_NP_2X_620219-MLA54973743242_042023-F.webpg"
         ]
     },
     {
-        "title": "Monitor 24 Pulgadas",
-        "description": "Monitor Full HD con panel IPS",
-        "code": "Mon24IPS",
-        "price": 250,
-        "status": true,
-        "stock": 15,
-        "category": "computación",
-        "thumbnails": [
-            "./Mon24IPS01.png",
-            "./Mon24IPS02.png"
-        ]
-    },
-    {
-        "title": "Escritorio Ajustable",
-        "description": "Escritorio con altura regulable para oficina",
-        "code": "EscAju",
-        "price": 450,
-        "status": true,
-        "stock": 8,
-        "category": "oficina",
-        "thumbnails": [
-            "./EscAju01.png",
-            "./EscAju02.png"
-        ]
-    },
-    {
-        "title": "Servicio de Mantenimiento de PC",
-        "description": "Revisión y optimización de equipos de computación",
-        "code": "SerMPC",
-        "price": 80,
-        "status": true,
-        "stock": 999,
-        "category": "servicios",
-        "thumbnails": [
-            "./SerMPC01.png",
-            "./SerMPC02.png"
-        ]
-    },
-    {
-        "title": "Audífonos Inalámbricos",
-        "description": "Audífonos Bluetooth con cancelación de ruido",
-        "code": "AudBlu",
+        "title": "Notebook Lenovo 02",
+        "description": "Notebook Lenovo 02",
+        "code": "pc-02",
         "price": 200,
-        "status": true,
-        "stock": 25,
-        "category": "computación",
+        "status": 1,
+        "category": "computacion",
+        "stock": 99,
         "thumbnails": [
-            "./AudBlu01.png",
-            "./AudBlu02.png"
+            "https://http2.mlstatic.com/D_NQ_NP_2X_644888-MLA82451690623_022025-F.webp"
         ]
     },
     {
-        "title": "Impresora Multifuncional",
-        "description": "Impresora, escáner y copiadora",
-        "code": "ImpMul",
-        "price": 350,
-        "status": true,
-        "stock": 12,
+        "title": "Notebook Lenovo 03",
+        "description": "Notebook Lenovo 03",
+        "code": "pc-03",
+        "price": 300,
+        "status": 1,
+        "category": "computacion",
+        "stock": 11,
+        "thumbnails": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_856938-MLA81487298995_122024-F.webp"
+        ]
+    },
+    {
+        "title": "Notebook Lenovo 04",
+        "description": "Notebook Lenovo 04",
+        "code": "pc-04",
+        "price": 400,
+        "status": 1,
+        "category": "computacion",
+        "stock": 20,
+        "thumbnails": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_735859-MLU75755217597_042024-F.webp"
+        ]
+    },
+    {
+        "title": "Notebook Lenovo 05",
+        "description": "Notebook Lenovo 05",
+        "code": "pc-05",
+        "price": 500,
+        "status": 1,
+        "category": "computacion",
+        "stock": 20,
+        "thumbnails": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_620219-MLA54973743242_042023-F.webpg"
+        ]
+    },
+    {
+        "title": "Notebook Lenovo 06",
+        "description": "Notebook Lenovo 06",
+        "code": "pc-06",
+        "price": 600,
+        "status": 1,
+        "category": "computacion",
+        "stock": 20,
+        "thumbnails": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_644888-MLA82451690623_022025-F.webp"
+        ]
+    },
+    {
+        "title": "Notebook Lenovo 07",
+        "description": "Notebook Lenovo 07",
+        "code": "pc-07",
+        "price": 700,
+        "status": 1,
+        "category": "computacion",
+        "stock": 20,
+        "thumbnails": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_856938-MLA81487298995_122024-F.webp"
+        ]
+    },
+    {
+        "title": "Notebook Lenovo 08",
+        "description": "Notebook Lenovo 08",
+        "code": "pc-08",
+        "price": 800,
+        "status": 1,
+        "category": "computacion",
+        "stock": 20,
+        "thumbnails": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_735859-MLU75755217597_042024-F.webp"
+        ]
+    },
+    {
+        "title": "Notebook Lenovo 09",
+        "description": "Notebook Lenovo 09",
+        "code": "pc-09",
+        "price": 900,
+        "status": 1,
+        "category": "computacion",
+        "stock": 20,
+        "thumbnails": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_973809-MLA83309253393_032025-F.webp"
+        ]
+    },
+    {
+        "title": "Notebook Lenovo 10",
+        "description": "Notebook Lenovo 10",
+        "code": "pc-10",
+        "price": 1000,
+        "status": 1,
+        "category": "computacion",
+        "stock": 20,
+        "thumbnails": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_973809-MLA83309253393_032025-F.webp"
+        ]
+    },
+    {
+        "title": "Boligrafo Papermate 01",
+        "description": "Boligrafo Papermate 01",
+        "code": "of-01",
+        "price": 10,
+        "status": 1,
         "category": "oficina",
+        "stock": 20,
         "thumbnails": [
-            "./ImpMul01.png",
-            "./ImpMul02.png"
+            "https://http2.mlstatic.com/D_NQ_NP_2X_667501-MLU54959898837_042023-F.webp"
         ]
     },
     {
-        "title": "Servicio de Configuración de Redes",
-        "description": "Instalación y configuración de redes para empresas",
-        "code": "SerRed",
-        "price": 150,
-        "status": true,
-        "stock": 999,
-        "category": "servicios",
+        "title": "Boligrafo Papermate 02",
+        "description": "Boligrafo Papermate 02",
+        "code": "of-02",
+        "price": 20,
+        "status": 1,
+        "category": "oficina",
+        "stock": 20,
         "thumbnails": [
-            "./SerRed01.png",
-            "./SerRed02.png"
+            "https://http2.mlstatic.com/D_NQ_NP_2X_650061-MLA80166861089_102024-F.webp"
         ]
     },
     {
-        "title": "Mouse Inalámbrico",
-        "description": "Mouse óptico con conexión Bluetooth",
-        "code": "MouBlu",
+        "title": "Boligrafo Papermate 03",
+        "description": "Boligrafo Papermate 03",
+        "code": "of-03",
+        "price": 30,
+        "status": 1,
+        "category": "oficina",
+        "stock": 20,
+        "thumbnails": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_913412-MLA75655990246_042024-F.webp"
+        ]
+    },
+    {
+        "title": "Boligrafo Papermate 04",
+        "description": "Boligrafo Papermate 04",
+        "code": "of-04",
+        "price": 40,
+        "status": 1,
+        "category": "oficina",
+        "stock": 20,
+        "thumbnails": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_868548-MLA48913559232_012022-F.webp"
+        ]
+    },
+    {
+        "title": "Boligrafo Papermate 05",
+        "description": "Boligrafo Papermate 05",
+        "code": "of-05",
         "price": 50,
-        "status": true,
-        "stock": 50,
-        "category": "computación",
+        "status": 1,
+        "category": "oficina",
+        "stock": 20,
         "thumbnails": [
-            "./MouBlu01.png",
-            "./MouBlu02.png"
+            "https://http2.mlstatic.com/D_NQ_NP_2X_702421-MLA83446776495_032025-F.webp"
+        ]
+    },
+    {
+        "title": "Boligrafo Papermate 06",
+        "description": "Boligrafo Papermate 06",
+        "code": "of-06",
+        "price": 60,
+        "status": 1,
+        "category": "oficina",
+        "stock": 20,
+        "thumbnails": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_667501-MLU54959898837_042023-F.webp"
+        ]
+    },
+    {
+        "title": "Boligrafo Papermate 07",
+        "description": "Boligrafo Papermate 07",
+        "code": "of-07",
+        "price": 70,
+        "status": 1,
+        "category": "oficina",
+        "stock": 20,
+        "thumbnails": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_650061-MLA80166861089_102024-F.webp"
+        ]
+    },
+    {
+        "title": "Servicio Técnico de Computacion",
+        "description": "Servicio Técnico Reparación De Pc Laptop Notebook Domicilio",
+        "code": "se-01",
+        "price": 1,
+        "status": 1,
+        "category": "servicio",
+        "stock": 20,
+        "thumbnails": [
+            "https://previews.123rf.com/images/believeinme33/believeinme331601/believeinme33160100028/50336684-concepto-de-reparaci%C3%B3n-de-computadoras-maestro-de-reparaci%C3%B3n-de-la-computadora-se-puso-las-manos-en-.jpg"
+        ]
+    },
+    {
+        "title": "Servicio Recarga Toner",
+        "description": "Servicio Recarga Toner",
+        "code": "se-02",
+        "price": 2,
+        "status": 1,
+        "category": "servicio",
+        "stock": 20,
+        "thumbnails": [
+            "https://computallerpc.com.ar/wp-content/uploads/2024/11/recarga_toner_printLoja.jpg"
+        ]
+    },
+    {
+        "title": "Servicio de Fotocopiado & Impresion",
+        "description": "Servicio de Fotocopiado, Impresion a Color y B&W",
+        "code": "se-03",
+        "price": 3,
+        "status": 1,
+        "category": "servicio",
+        "stock": 20,
+        "thumbnails": [
+            "https://www.multiservicioscopyprint.com/wp-content/uploads/2022/09/Servicios-Fotocopias-1.jpg"
         ]
     }
 ]
+

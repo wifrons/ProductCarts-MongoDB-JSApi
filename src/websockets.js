@@ -7,12 +7,7 @@ export default (io) => {
     io.on("connection", async (socket) => {
         console.log("Un nuevo cliente se ha conectado, ID del cliente:", socket.id);
 
-        // Obtener productos al conectar
-/*         const initialProducts = await productManager.getProducts();
-        socket.emit("all-products", initialProducts); */
-
         const initialProducts = await ProductsModel.find()
-        //await productManager.syncData(initialProducts);
 
         socket.emit("all-products", initialProducts); 
 
@@ -42,20 +37,13 @@ export default (io) => {
 
         socket.on("del-product", async (data) => {
             // eliminar el producto
-            console.log(data)
             const result = await ProductsModel.deleteOne({ _id: data });
 
             // eliminar el producto en archivo
-            console.log("del-product -->> result");
-            console.log(result);
             if (result){
                 await productManager.delProduct(data);
             }
-            //await productManager.delProduct(data);
-
-            // actualizar todos los clientes
-/*             const updatedProducts = await productManager.getProducts();
-            io.emit("all-products", updatedProducts); */
+  
             const updatedProducts = await ProductsModel.find()
             io.emit("all-products", updatedProducts);
         });

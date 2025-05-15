@@ -29,7 +29,7 @@ router.get("/api/carts/:cid", async (req, res) => {
         const response = await CartsModel.findById(cid).populate("products.product").lean();
 
         if (response) {
-            res.status(200).json({ status: "success CartsModel.findOne", response });
+            res.status(200).json({ status: "success CartsModel.findOne", message: response });
         } else {
             res.status(404).json({ status: "failed CartsModel.findOne", message: "cart not found" });
         }
@@ -46,7 +46,7 @@ router.post("/api/carts/", async (req, res) => {
         const response = await CartsModel.insertOne({ products: [] });
         if (response) {
             await cartManager.addCart(response._id);
-            res.status(200).json({ status: "success CartsModel.insertOne", response });
+            res.status(200).json({ status: "success CartsModel.insertOne", message: response });
         } else {
             res.status(404).json({ status: "failed CartsModel.insertOne", message: "cart not create" });
         }
@@ -57,7 +57,7 @@ router.post("/api/carts/", async (req, res) => {
     }
 });
 
-// REEMPLAZA LA LISTA ACTUAL DE PRODUCTOS, POR UNA NUEVA.
+// REEMPLAZA LA LISTA ACTUAL DE PRODUCTOS, POR UNA NUEVA ENVIADA DESDE EL BODY.
 router.post("/api/carts/:cid", async (req, res) => {
     try {
         const cid = new mongoose.Types.ObjectId(req.params.cid);

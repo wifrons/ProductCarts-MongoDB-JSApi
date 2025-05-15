@@ -21,13 +21,13 @@ class ProductManager {
             const data = JSON.parse(json);
             return data;
         } catch (error) {
-            return [];
+            return null;
         }
     }
 
     // Método generico para reconstruir los datos en el archivo
     async syncData(doc) {
-        
+
         await fsPromises.truncate(this.filePath);
 
         const docToString = JSON.stringify(doc, null, 2);
@@ -51,16 +51,11 @@ class ProductManager {
     // Método para agregar productos
     async addProduct(product) {
         const { title, description, code, price, status, stock, category, thumbnails } = product;
-        console.log("addProduct -->>")
-        console.log(product)
+
         const products = await this.readData();
-        console.log("addProduct -->> products")
-        console.log(products)
+
         const foundCode = products.find((pr) => pr.code === code);
         if (foundCode) return { addProduct: `Product code: [${code}] already exists.` }
-        
-        console.log("addProduct -->> products.length")
-        console.log(products.length)
 
         let id;
         if (!products.length) id = 1;
@@ -68,28 +63,9 @@ class ProductManager {
             const lastId = products[products.length - 1].id;
             id = lastId + 1;
         }
-
-/*         const newProduct = {
-            title,
-            description,
-            code,
-            price,
-            status,
-            stock,
-            category,
-            thumbnails,
-            id,
-        }; */
-        
-        const newProduct = {...product};
-
-        console.log("addProduct -->> newProduct")
-        console.log(newProduct)
-
+        const newProduct = { ...product };
         products.push(newProduct);
         await this.saveData(products);
-
-        console.log("<<-- addProduct")
         return newProduct;
 
     }
@@ -117,6 +93,18 @@ class ProductManager {
         await this.saveData(products);
         return { deleted: pid };
     }
+
+    // Método para leer los productos desde el archivo semilla
+    async getProductsSeed(pathSeed) {
+        try {
+            const json = await fsPromises.readFile(pathSeed, "utf-8");
+            const data = JSON.parse(json);
+            return data;
+        } catch (error) {
+            return null;
+        }
+    }
+
 }
 
 export default ProductManager;

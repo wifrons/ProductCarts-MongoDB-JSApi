@@ -7,11 +7,10 @@ import viewsRouter from "./routes/views.routes.js";
 import websockets from "./websockets.js";
 import productsRouter from "./routes/products.router.js";
 import cartsRouter from "./routes/carts.router.js";
+import mongoose from "mongoose";
+import dotenv from "dotenv";
 
 //VARIABLES DE ENTORNO
-import dotenv from "dotenv";
-import mongoose from "mongoose";
-import { error } from "console";
 dotenv.config();
 
 const app = express();

@@ -1,66 +1,223 @@
-{
-  "payload": [
-    {
-      "thumbnails": [],
-      "_id": "68157b616252e933d195bd2b",
-      "title": "Notebook Lenovo WifronBB",
-      "description": "Notebook Lenovo WifronBB",
-      "code": "NbLeWiBB",
-      "price": 10,
-      "status": 1,
-      "category": "compu",
-      "stock": 20,
-      "__v": 0
-    },
-    {
-      "_id": "68157c3341572e8fb924ef17",
-      "title": "Notebook Lenovo WifronBB",
-      "description": "Notebook Lenovo WifronBB",
-      "code": "NbLeWiBB",
-      "price": 10,
-      "status": 1,
-      "category": "compu",
-      "stock": 20,
-      "thumbnails": [
-        "./NbLeWi01.png",
-        "./NbLeWi02.png"
-      ],
-      "__v": 0
-    },
-    {
-      "_id": "6817f05b32e2815ba5ee452a",
-      "title": "WWWW",
-      "description": "WWWW",
-      "code": "WWWW",
-      "price": 99,
-      "status": 1,
-      "category": "compu",
-      "stock": 99,
-      "thumbnails": [
-        "./WWWW01.png",
-        "./WWWW02.png"
-      ],
-      "__v": 0
-    },
-    {
-      "_id": "681fe25f3b67698409010afc",
-      "title": "qqq",
-      "description": "qqq",
-      "code": "qqq",
-      "price": 11,
-      "status": 1,
-      "category": "compu",
-      "stock": 11,
-      "thumbnails": [
-        "qq01.png"
-      ]
-    }
-  ],
-  "offset": 0,
-  "totalPages": 1,
-  "currentPage": 1,
-  "hasPrevPage": false,
-  "hasNextPage": false,
-  "prevPage": null,
-  "nextPage": null
-}
+[
+  {
+    "_id": "6825340b4a03173c0622e6d1",
+    "title": "Notebook Lenovo 01",
+    "description": "Notebook Lenovo 01",
+    "code": "pc-01",
+    "price": 100,
+    "status": 1,
+    "stock": 20,
+    "category": "computacion",
+    "thumbnails": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_620219-MLA54973743242_042023-F.webpg"
+    ]
+  },
+  {
+    "_id": "6825340b4a03173c0622e6d2",
+    "title": "Notebook Lenovo 02",
+    "description": "Notebook Lenovo 02",
+    "code": "pc-02",
+    "price": 200,
+    "status": 1,
+    "stock": 99,
+    "category": "computacion",
+    "thumbnails": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_644888-MLA82451690623_022025-F.webp"
+    ]
+  },
+  {
+    "_id": "6825340b4a03173c0622e6d3",
+    "title": "Notebook Lenovo 03",
+    "description": "Notebook Lenovo 03",
+    "code": "pc-03",
+    "price": 300,
+    "status": 1,
+    "stock": 11,
+    "category": "computacion",
+    "thumbnails": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_856938-MLA81487298995_122024-F.webp"
+    ]
+  },
+  {
+    "_id": "6825340b4a03173c0622e6d4",
+    "title": "Notebook Lenovo 04",
+    "description": "Notebook Lenovo 04",
+    "code": "pc-04",
+    "price": 400,
+    "status": 1,
+    "stock": 20,
+    "category": "computacion",
+    "thumbnails": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_735859-MLU75755217597_042024-F.webp"
+    ]
+  },
+  {
+    "_id": "6825340b4a03173c0622e6d5",
+    "title": "Notebook Lenovo 05",
+    "description": "Notebook Lenovo 05",
+    "code": "pc-05",
+    "price": 500,
+    "status": 1,
+    "stock": 20,
+    "category": "computacion",
+    "thumbnails": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_620219-MLA54973743242_042023-F.webpg"
+    ]
+  },
+  {
+    "_id": "6825340b4a03173c0622e6d6",
+    "title": "Notebook Lenovo 06",
+    "description": "Notebook Lenovo 06",
+    "code": "pc-06",
+    "price": 600,
+    "status": 1,
+    "stock": 20,
+    "category": "computacion",
+    "thumbnails": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_644888-MLA82451690623_022025-F.webp"
+    ]
+  },
+  {
+    "_id": "6825340b4a03173c0622e6d7",
+    "title": "Notebook Lenovo 07",
+    "description": "Notebook Lenovo 07",
+    "code": "pc-07",
+    "price": 700,
+    "status": 1,
+    "stock": 20,
+    "category": "computacion",
+    "thumbnails": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_856938-MLA81487298995_122024-F.webp"
+    ]
+  },
+  {
+    "_id": "6825340b4a03173c0622e6d8",
+    "title": "Notebook Lenovo 08",
+    "description": "Notebook Lenovo 08",
+    "code": "pc-08",
+    "price": 800,
+    "status": 1,
+    "stock": 20,
+    "category": "computacion",
+    "thumbnails": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_735859-MLU75755217597_042024-F.webp"
+    ]
+  },
+  {
+    "_id": "6825340b4a03173c0622e6d9",
+    "title": "Notebook Lenovo 09",
+    "description": "Notebook Lenovo 09",
+    "code": "pc-09",
+    "price": 900,
+    "status": 1,
+    "stock": 20,
+    "category": "computacion",
+    "thumbnails": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_973809-MLA83309253393_032025-F.webp"
+    ]
+  },
+  {
+    "_id": "6825340b4a03173c0622e6da",
+    "title": "Notebook Lenovo 10",
+    "description": "Notebook Lenovo 10",
+    "code": "pc-10",
+    "price": 1000,
+    "status": 1,
+    "stock": 20,
+    "category": "computacion",
+    "thumbnails": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_973809-MLA83309253393_032025-F.webp"
+    ]
+  },
+  {
+    "_id": "6825340b4a03173c0622e6db",
+    "title": "Boligrafo Papermate 01",
+    "description": "Boligrafo Papermate 01",
+    "code": "of-01",
+    "price": 10,
+    "status": 1,
+    "stock": 20,
+    "category": "oficina",
+    "thumbnails": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_667501-MLU54959898837_042023-F.webp"
+    ]
+  },
+  {
+    "_id": "6825340b4a03173c0622e6dc",
+    "title": "Boligrafo Papermate 02",
+    "description": "Boligrafo Papermate 02",
+    "code": "of-02",
+    "price": 20,
+    "status": 1,
+    "stock": 20,
+    "category": "oficina",
+    "thumbnails": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_650061-MLA80166861089_102024-F.webp"
+    ]
+  },
+  {
+    "_id": "6825340b4a03173c0622e6dd",
+    "title": "Boligrafo Papermate 03",
+    "description": "Boligrafo Papermate 03",
+    "code": "of-03",
+    "price": 30,
+    "status": 1,
+    "stock": 20,
+    "category": "oficina",
+    "thumbnails": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_913412-MLA75655990246_042024-F.webp"
+    ]
+  },
+  {
+    "_id": "6825340b4a03173c0622e6de",
+    "title": "Boligrafo Papermate 04",
+    "description": "Boligrafo Papermate 04",
+    "code": "of-04",
+    "price": 40,
+    "status": 1,
+    "stock": 20,
+    "category": "oficina",
+    "thumbnails": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_868548-MLA48913559232_012022-F.webp"
+    ]
+  },
+  {
+    "_id": "6825340b4a03173c0622e6df",
+    "title": "Boligrafo Papermate 05",
+    "description": "Boligrafo Papermate 05",
+    "code": "of-05",
+    "price": 50,
+    "status": 1,
+    "stock": 20,
+    "category": "oficina",
+    "thumbnails": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_702421-MLA83446776495_032025-F.webp"
+    ]
+  },
+  {
+    "_id": "6825340b4a03173c0622e6e0",
+    "title": "Boligrafo Papermate 06",
+    "description": "Boligrafo Papermate 06",
+    "code": "of-06",
+    "price": 60,
+    "status": 1,
+    "stock": 20,
+    "category": "oficina",
+    "thumbnails": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_667501-MLU54959898837_042023-F.webp"
+    ]
+  },
+  {
+    "_id": "6825340b4a03173c0622e6e1",
+    "title": "Boligrafo Papermate 07",
+    "description": "Boligrafo Papermate 07",
+    "code": "of-07",
+    "price": 70,
+    "status": 1,
+    "stock": 20,
+    "category": "oficina",
+    "thumbnails": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_650061-MLA80166861089_102024-F.webp"
+    ]
+  }
+]
