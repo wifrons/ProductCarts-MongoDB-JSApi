@@ -2,11 +2,9 @@
     <h1>Los mejores productos disponibles a precios increíbles</h1>
     
     <div class="pagination">
-        <a href="{{response.prevLink}}" class="pagination-button {{#unless response.hasPrevPage}}disabled{{/unless}}">←
-            Anterior</a>
+        <a href="{{response.prevLink}}" class="pagination-button {{#unless response.hasPrevPage}}disabled{{/unless}}">← Anterior</a>
         <span id="currentPage">Página {{response.currentPage}} de {{response.totalPages}}</span>
-        <a href="{{response.nextLink}}"
-            class="pagination-button {{#unless response.hasNextPage}}disabled{{/unless}}">Siguiente →</a>
+        <a href="{{response.nextLink}}" class="pagination-button {{#unless response.hasNextPage}}disabled{{/unless}}">Siguiente →</a>
     </div>
 
     <div class="card-container">

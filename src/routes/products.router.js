@@ -57,7 +57,7 @@ router.get("/api/products/:pid", async (req, res) => {
         if (response) {
             res.status(200).json({ status: "success to product get by id", message: response });
         } else {
-            res.status(404).json({ status: "failed to product get by id", message: response });
+            res.status(404).json({ status: "product not found", message: response });
         }
     } catch (error) {
         res.status(500).json({ status: "error to product get by id", message: error.message });

@@ -25,13 +25,18 @@ Ejemplo:
 	//--Ejemplo 1> Mostrar todos los productos 
 		http://localhost:8080/api/products
 
-	//--Ejemplo 2> Mostrar todos los productos Ordenados por precio en orden descendente y categoria "oficina", 
+  //--Ejemplo 2> Mostrar todos los productos e ir a la pagina 2, 
+    http://localhost:8080/api/products/?page=2
+    
+	//--Ejemplo 3> Mostrar todos los productos Ordenados por precio en orden descendente y categoria "oficina", 
 	agregar en la url los parametro sort=-price y query={"category":"oficina"}
 		http://localhost:8080/api/products/?limit=10&sort=-price&query={"category":"oficina"}
 		
-	//--Ejemplo 3> Mostrar todos los productos Ordenados por precio en orden ascendente y categoria "computacion", 
+	//--Ejemplo 4> Mostrar todos los productos Ordenados por precio en orden ascendente y categoria "computacion", 
 	agregar en la url los parametro sort=price y query={"category":"computacion"}
 		http://localhost:8080/api/products/?limit=10&sort=price&query={"category":"computacion"}
+
+
 
 Ejemplo de la nueva respuesta:
 	{
@@ -55,9 +60,35 @@ Obtiene el producto indicado en el parametro
 
 //-->POST   /api/products/
 Agrega un producto
+  Ejemplo de producto para agregar en formato JSON (desde el body):
+      {
+          "title": "ImpresoraXXXXXXXX",
+          "description": "ImpresoraXXXXXXXX",
+          "code": "xxxx",
+          "price": 1020,
+          "status": 1,
+          "category": "computacion",
+          "stock": 20,
+          "thumbnails": [
+              "https://http2.mlstatic.com/D_NQ_NP_2X_940540-MLU69594733495_052023-F.webp"
+          ]
+      }
 
 //-->PUT    /api/products/:pid
 Actualiza un producto
+  Ejemplo de producto para actualizar en formato JSON (desde el body):
+    {
+        "title": "wifron",
+        "description": "wifron",
+        "code": "wifron",
+        "price": 1020,
+        "status": 1,
+        "category": "computacion",
+        "stock": 20,
+        "thumbnails": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_940540-MLU69594733495_052023-F.webp"
+        ]
+    } 
 
 //-->DELETE /api/products/:pid
 Elimina un producto indicado en el parametro
@@ -77,6 +108,14 @@ Genera un carrito
 
 //-->POST   /api/carts/:cid
 Reemplaza la lista actual de productos, por una nueva lista enviada desde Body
+    EJEMPLO DE LISTA (JSON) DE PRODUCTOS:
+    {
+        "products": [
+            { "product": "6826813e64c033d02892fbb9", "quantity": 2 },
+            { "product": "6826813e64c033d02892fbbc", "quantity": 4 },
+            { "product": "6826813e64c033d02892fbc4", "quantity": 6 }
+        ]
+    }
 
 //-->PUT   	/api/carts/:cid/product/:pid
 Actualiza un carrito agregando un product

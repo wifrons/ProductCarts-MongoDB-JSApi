@@ -219,5 +219,17 @@
     "thumbnails": [
       "https://http2.mlstatic.com/D_NQ_NP_2X_650061-MLA80166861089_102024-F.webp"
     ]
+  },
+  {
+    "title": "ImpresoraXXXXXXXX",
+    "description": "ImpresoraXXXXXXXX",
+    "code": "xxxx",
+    "price": 1020,
+    "status": 1,
+    "category": "computacion",
+    "stock": 20,
+    "thumbnails": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_940540-MLU69594733495_052023-F.webp"
+    ]
   }
 ]

@@ -100,7 +100,7 @@ h1 {
 
 /* Begin ->Estilo para los botones de paginacion*/
 .pagination-button {
-    background-color: #007bff;
+    background-color: orange;
     color: white;
     padding: 10px 15px;
     border-radius: 5px;
@@ -110,7 +110,7 @@ h1 {
 }
 
 .pagination-button:hover {
-    background-color: #0056b3;
+    background-color: rgb(175, 115, 3);
 }
 
 .pagination-button.disabled {

@@ -216,8 +216,8 @@
         ]
     },
     {
-        "title": "Servicio Recarga Toner",
-        "description": "Servicio Recarga Toner",
+        "title": "Servicio Recarga Toner HP",
+        "description": "Servicio Recarga Toner HP",
         "code": "se-02",
         "price": 2,
         "status": 1,
@@ -238,6 +238,474 @@
         "thumbnails": [
             "https://www.multiservicioscopyprint.com/wp-content/uploads/2022/09/Servicios-Fotocopias-1.jpg"
         ]
+    },
+    {
+        "title": "Servicio Recarga Toner Canon",
+        "description": "Servicio Recarga Toner Canon",
+        "code": "se-04",
+        "price": 4,
+        "status": 1,
+        "category": "servicio",
+        "stock": 20,
+        "thumbnails": [
+            "https://computallerpc.com.ar/wp-content/uploads/2024/11/recarga_toner_printLoja.jpg"
+        ]
+    },
+    {
+        "title": "Servicio Recarga Toner Samsumg",
+        "description": "Servicio Recarga Toner Samsumg",
+        "code": "se-05",
+        "price": 5,
+        "status": 1,
+        "category": "servicio",
+        "stock": 20,
+        "thumbnails": [
+            "https://computallerpc.com.ar/wp-content/uploads/2024/11/recarga_toner_printLoja.jpg"
+        ]
+    },
+    {
+        "title": "Servicio Recarga Toner Xerox",
+        "description": "Servicio Recarga Toner Xerox",
+        "code": "se-06",
+        "price": 6,
+        "status": 1,
+        "category": "servicio",
+        "stock": 20,
+        "thumbnails": [
+            "https://computallerpc.com.ar/wp-content/uploads/2024/11/recarga_toner_printLoja.jpg"
+        ]
+    },
+    {
+        "title": "Servicio Recarga Toner Brother",
+        "description": "Servicio Recarga Toner Brother",
+        "code": "se-07",
+        "price": 7,
+        "status": 1,
+        "category": "servicio",
+        "stock": 20,
+        "thumbnails": [
+            "https://computallerpc.com.ar/wp-content/uploads/2024/11/recarga_toner_printLoja.jpg"
+        ]
+    },
+    {
+        "title": "Servicio Recarga Toner Ricoh",
+        "description": "Servicio Recarga Toner Ricoh",
+        "code": "se-08",
+        "price": 8,
+        "status": 1,
+        "category": "servicio",
+        "stock": 20,
+        "thumbnails": [
+            "https://computallerpc.com.ar/wp-content/uploads/2024/11/recarga_toner_printLoja.jpg"
+        ]
+    },
+    {
+        "title": "Servicio de Plotter Impresion a B&W",
+        "description": "Servicio de Fotocopiado, Impresion a B&W",
+        "code": "se-09",
+        "price": 9,
+        "status": 1,
+        "category": "servicio",
+        "stock": 20,
+        "thumbnails": [
+            "https://http2.mlstatic.com/D_NQ_NP_856165-MLA83797754815_042025-O.webp"
+        ]
+    },
+    {
+        "title": "Servicio de Plotter Impresion a Color",
+        "description": "Servicio de Fotocopiado, Impresion a Color",
+        "code": "se-10",
+        "price": 10,
+        "status": 1,
+        "category": "servicio",
+        "stock": 20,
+        "thumbnails": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_671110-MLA83797725515_042025-F.webp"
+        ]
+    },
+    {
+        "title": "Resma Autor A4 multifunción 08",
+        "description": "Resma Autor A4 multifunción 08",
+        "code": "of-08",
+        "price": 80,
+        "status": 1,
+        "category": "oficina",
+        "stock": 20,
+        "thumbnails": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_629721-MLA73955828508_012024-F.webp"
+        ]
+    },
+    {
+        "title": "Resma Autor A4 multifunción 09",
+        "description": "Resma Autor A4 multifunción 09",
+        "code": "of-09",
+        "price": 90,
+        "status": 1,
+        "category": "oficina",
+        "stock": 20,
+        "thumbnails": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_629721-MLA73955828508_012024-F.webp"
+        ]
+    },
+    {
+        "title": "Resma Autor A4 multifunción 10",
+        "description": "Resma Autor A4 multifunción 10",
+        "code": "of-10",
+        "price": 90,
+        "status": 1,
+        "category": "oficina",
+        "stock": 20,
+        "thumbnails": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_629721-MLA73955828508_012024-F.webp"
+        ]
+    },
+    {
+        "title": "Resma Autor A5 multifunción 11",
+        "description": "Resma Autor A5 multifunción 11",
+        "code": "of-11",
+        "price": 91,
+        "status": 1,
+        "category": "oficina",
+        "stock": 20,
+        "thumbnails": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_630501-MLA84477378937_052025-F.webp"
+        ]
+    },
+    {
+        "title": "Resma Autor A5 multifunción 12",
+        "description": "Resma Autor A5 multifunción 12",
+        "code": "of-12",
+        "price": 92,
+        "status": 1,
+        "category": "oficina",
+        "stock": 20,
+        "thumbnails": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_630501-MLA84477378937_052025-F.webp"
+        ]
+    },
+    {
+        "title": "Resma Autor A5 multifunción 13",
+        "description": "Resma Autor A5 multifunción 13",
+        "code": "of-13",
+        "price": 93,
+        "status": 1,
+        "category": "oficina",
+        "stock": 20,
+        "thumbnails": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_630501-MLA84477378937_052025-F.webp"
+        ]
+    },
+    {
+        "title": "Resma Autor A5 multifunción 14",
+        "description": "Resma Autor A5 multifunción 14",
+        "code": "of-14",
+        "price": 94,
+        "status": 1,
+        "category": "oficina",
+        "stock": 20,
+        "thumbnails": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_630501-MLA84477378937_052025-F.webp"
+        ]
+    },
+    {
+        "title": "Resma Autor A5 multifunción 15",
+        "description": "Resma Autor A5 multifunción 15",
+        "code": "of-15",
+        "price": 95,
+        "status": 1,
+        "category": "oficina",
+        "stock": 20,
+        "thumbnails": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_630501-MLA84477378937_052025-F.webp"
+        ]
+    },
+    {
+        "title": "Resma Autor A5 multifunción 16",
+        "description": "Resma Autor A5 multifunción 16",
+        "code": "of-16",
+        "price": 96,
+        "status": 1,
+        "category": "oficina",
+        "stock": 20,
+        "thumbnails": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_630501-MLA84477378937_052025-F.webp"
+        ]
+    },
+    {
+        "title": "Resma Autor A5 multifunción 17",
+        "description": "Resma Autor A5 multifunción 17",
+        "code": "of-17",
+        "price": 97,
+        "status": 1,
+        "category": "oficina",
+        "stock": 20,
+        "thumbnails": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_630501-MLA84477378937_052025-F.webp"
+        ]
+    },
+    {
+        "title": "Resma Autor A5 multifunción 18",
+        "description": "Resma Autor A5 multifunción 18",
+        "code": "of-18",
+        "price": 98,
+        "status": 1,
+        "category": "oficina",
+        "stock": 20,
+        "thumbnails": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_630501-MLA84477378937_052025-F.webp"
+        ]
+    },
+    {
+        "title": "Resma Autor A5 multifunción 19",
+        "description": "Resma Autor A5 multifunción 19",
+        "code": "of-19",
+        "price": 99,
+        "status": 1,
+        "category": "oficina",
+        "stock": 20,
+        "thumbnails": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_630501-MLA84477378937_052025-F.webp"
+        ]
+    },
+    {
+        "title": "Computadora De Escritorio 01",
+        "description": "Computadora De Escritorio CPU + RAM + SSD 01",
+        "code": "pc-11",
+        "price": 1001,
+        "status": 1,
+        "category": "computacion",
+        "stock": 20,
+        "thumbnails": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_948512-MLU75400647633_032024-F.webp"
+        ]
+    },
+    {
+        "title": "Computadora De Escritorio 02",
+        "description": "Computadora De Escritorio CPU + RAM + SSD 02",
+        "code": "pc-12",
+        "price": 1002,
+        "status": 1,
+        "category": "computacion",
+        "stock": 20,
+        "thumbnails": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_948512-MLU75400647633_032024-F.webp"
+        ]
+    },
+    {
+        "title": "Computadora De Escritorio 03",
+        "description": "Computadora De Escritorio CPU + RAM + SSD 03",
+        "code": "pc-13",
+        "price": 1003,
+        "status": 1,
+        "category": "computacion",
+        "stock": 20,
+        "thumbnails": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_953994-MLU77022176287_062024-F.webp"
+        ]
+    },
+    {
+        "title": "Computadora De Escritorio 04",
+        "description": "Computadora De Escritorio CPU + RAM + SSD 04",
+        "code": "pc-14",
+        "price": 1004,
+        "status": 1,
+        "category": "computacion",
+        "stock": 20,
+        "thumbnails": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_953994-MLU77022176287_062024-F.webp"
+        ]
+    },
+    {
+        "title": "Computadora De Escritorio 05",
+        "description": "Computadora De Escritorio CPU + RAM + SSD 05",
+        "code": "pc-15",
+        "price": 1005,
+        "status": 1,
+        "category": "computacion",
+        "stock": 20,
+        "thumbnails": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_716671-MLA82325657972_022025-F.webp"
+        ]
+    },
+    {
+        "title": "Computadora De Escritorio 06",
+        "description": "Computadora De Escritorio CPU + RAM + SSD 06",
+        "code": "pc-16",
+        "price": 1006,
+        "status": 1,
+        "category": "computacion",
+        "stock": 20,
+        "thumbnails": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_716671-MLA82325657972_022025-F.webp"
+        ]
+    },
+    {
+        "title": "Computadora De Escritorio 07",
+        "description": "Computadora De Escritorio CPU + RAM + SSD 07",
+        "code": "pc-17",
+        "price": 1007,
+        "status": 1,
+        "category": "computacion",
+        "stock": 20,
+        "thumbnails": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_838303-MLA82767332149_022025-F.webp"
+        ]
+    },
+    {
+        "title": "Computadora De Escritorio 08",
+        "description": "Computadora De Escritorio CPU + RAM + SSD 08",
+        "code": "pc-18",
+        "price": 1008,
+        "status": 1,
+        "category": "computacion",
+        "stock": 20,
+        "thumbnails": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_838303-MLA82767332149_022025-F.webp"
+        ]
+    },
+    {
+        "title": "Computadora De Escritorio 09",
+        "description": "Computadora De Escritorio CPU + RAM + SSD 09",
+        "code": "pc-19",
+        "price": 1009,
+        "status": 1,
+        "category": "computacion",
+        "stock": 20,
+        "thumbnails": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_767173-MLA81093721482_122024-F.webp"
+        ]
+    },
+    {
+        "title": "Computadora De Escritorio 10",
+        "description": "Computadora De Escritorio CPU + RAM + SSD 10",
+        "code": "pc-20",
+        "price": 1010,
+        "status": 1,
+        "category": "computacion",
+        "stock": 20,
+        "thumbnails": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_767173-MLA81093721482_122024-F.webp"
+        ]
+    },
+    {
+        "title": "Impresora Laser XZSW 01",
+        "description": "Impresora Laser XZSW alta calida y rendimiento 01",
+        "code": "pc-21",
+        "price": 1011,
+        "status": 1,
+        "category": "computacion",
+        "stock": 20,
+        "thumbnails": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_635931-MLU75359175571_032024-F.webp"
+        ]
     }
+    ,
+    {
+        "title": "Impresora Laser XZSW 02",
+        "description": "Impresora Laser XZSW alta calida y rendimiento 02",
+        "code": "pc-22",
+        "price": 1012,
+        "status": 1,
+        "category": "computacion",
+        "stock": 20,
+        "thumbnails": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_635931-MLU75359175571_032024-F.webp"
+        ]
+    },
+    {
+        "title": "Impresora Laser XZSW 03",
+        "description": "Impresora Laser XZSW alta calida y rendimiento 03",
+        "code": "pc-23",
+        "price": 1013,
+        "status": 1,
+        "category": "computacion",
+        "stock": 20,
+        "thumbnails": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_700133-MLA79438853395_092024-F.webp"
+        ]
+    },
+    {
+        "title": "Impresora Laser XZSW 04",
+        "description": "Impresora Laser XZSW alta calida y rendimiento 04",
+        "code": "pc-24",
+        "price": 1014,
+        "status": 1,
+        "category": "computacion",
+        "stock": 20,
+        "thumbnails": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_700133-MLA79438853395_092024-F.webp"
+        ]
+    },
+    {
+        "title": "Impresora Laser XZSW 05",
+        "description": "Impresora Laser XZSW alta calida y rendimiento 05",
+        "code": "pc-25",
+        "price": 1015,
+        "status": 1,
+        "category": "computacion",
+        "stock": 20,
+        "thumbnails": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_923429-MLU79081434153_092024-F.webp"
+        ]
+    },
+    {
+        "title": "Impresora Laser XZSW 06",
+        "description": "Impresora Laser XZSW alta calida y rendimiento 06",
+        "code": "pc-26",
+        "price": 1016,
+        "status": 1,
+        "category": "computacion",
+        "stock": 20,
+        "thumbnails": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_923429-MLU79081434153_092024-F.webp"
+        ]
+    },
+    {
+        "title": "Impresora Laser XZSW 07",
+        "description": "Impresora Laser XZSW alta calida y rendimiento 07",
+        "code": "pc-27",
+        "price": 1017,
+        "status": 1,
+        "category": "computacion",
+        "stock": 20,
+        "thumbnails": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_913230-MLU70044740308_062023-F.webp"
+        ]
+    },
+    {
+        "title": "Impresora Laser XZSW 08",
+        "description": "Impresora Laser XZSW alta calida y rendimiento 08",
+        "code": "pc-28",
+        "price": 1018,
+        "status": 1,
+        "category": "computacion",
+        "stock": 20,
+        "thumbnails": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_913230-MLU70044740308_062023-F.webp"
+        ]
+    },
+    {
+        "title": "Impresora Laser XZSW 09",
+        "description": "Impresora Laser XZSW alta calida y rendimiento 09",
+        "code": "pc-29",
+        "price": 1019,
+        "status": 1,
+        "category": "computacion",
+        "stock": 20,
+        "thumbnails": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_940540-MLU69594733495_052023-F.webp"
+        ]
+    },
+    {
+        "title": "Impresora Laser XZSW 10",
+        "description": "Impresora Laser XZSW alta calida y rendimiento 10",
+        "code": "pc-30",
+        "price": 1020,
+        "status": 1,
+        "category": "computacion",
+        "stock": 20,
+        "thumbnails": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_940540-MLU69594733495_052023-F.webp"
+        ]
+    }    
 ]
-

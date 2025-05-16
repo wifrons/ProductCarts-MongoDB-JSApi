@@ -1,10 +1,7 @@
 import { Router } from "express";
 import ProductsModel from "../models/products.model.js";
-
-import dotenv from "dotenv";
 import { PaginationParameters } from "mongoose-paginate-v2";
 
-dotenv.config();
 const router = Router();
 
 router.get("/icoremar", async (req, res) => {
